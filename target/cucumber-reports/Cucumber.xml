@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="44.69">
+    <testcase classname="PE Dashboard" name="Cancel Delete row on the dashboard" time="44.227">
+        <system-out><![CDATA[Given I am on the Login screen..............................................passed
+When I login with "aditi.mahiman+PE@coditas.com" and "Test@123".............passed
+And I select project from dropdown..........................................passed
+And I add a row.............................................................passed
+And I  cancel delete row....................................................passed
+Then I verify that the row is not  deleted..................................passed
+]]></system-out>
+=======
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="69.188">
+    <testcase classname="PE Dashboard" name="Verify 'Clear all' filter for Text search" time="68.785">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on the Login screen..............................................passed
+When I login with "aditi.mahiman+PE@coditas.com" and "Test@123".............passed
+And I select project from dropdown..........................................passed
+And I enter text in the Text Search column..................................passed
+And I enter text in the Vendor details Search column........................passed
+And I select Clear All  filter..............................................passed
+Then I verify that Text Search column  and Vendor details column values are cleared.undefined
+]]></failure>
+>>>>>>> c5fe58cb05df9e2ee379fb19e64ad042150e9c55
+    </testcase>
+</testsuite>
